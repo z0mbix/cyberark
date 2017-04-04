@@ -1,0 +1,10 @@
+localhost:8888
+tls off
+root public
+browse
+ext .html
+log / stdout "{remote} - [{when}] {method} {uri} {proto} {status} {size} - {request}"
+
+header /auth/Cyberark/CyberArkAuthenticationService.svc/Logon {
+	CyberArkLogonResult "eep6xahthietheetheihoh8lahNainga"
+}
